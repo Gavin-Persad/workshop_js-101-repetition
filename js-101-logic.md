@@ -102,12 +102,12 @@ Our task is to translate the following code blocks into JavaScript.
 
 ### Task 1
 
-![](./images/weather.png)
+![](./images/my-fav-number.png)
 
 ### Task 2
 
-![](./images/my-fav-number.png)
+![](./images/whats-your-name.png)
 
 ### Task 3
 
-![](./images/whats-your-name.png)
+![](./images/weather.png)
