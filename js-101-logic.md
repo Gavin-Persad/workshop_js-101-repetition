@@ -2,7 +2,7 @@
 
 Conditional statements allow us to write programs that perform the different actions depending on the situation. The main way we write these is with `if`, `else` and `else if` statements.
 
-## The basic if...
+### The basic if...
 
 ```js
 if (condition) {
@@ -34,7 +34,7 @@ if (numberOfPies < 1) {
 }
 ```
 
-## If/else
+### If/else
 
 The else statement will run if the the previous ifs or if elses have not run. There can **only** be one and it **must** be the last in the chain.
 
@@ -48,7 +48,7 @@ if (numberOfPies < 1) {
 }
 ```
 
-## Else If
+### Else If
 
 You can put as many else ifs in as you like, they **cannot** be first as the chain must always start with an if. You **must** supply a condition.
 
@@ -64,10 +64,50 @@ if (numberOfPies < 1) {
 }
 ```
 
-## Exercise
+## Exercises
 
-Translate the following code blocks to javascript.
+We are going to use our new found javascript skills and of our existing knowledge of scratch to translate some blocks to real code.
 
-![](./weather.png)
-![](./my-fav-number.png)
-![](./whats-your-name.png)
+For example this block...
+
+![](./images/say-hello.png)
+
+Could be translated to JavaScript like so...
+
+```js
+console.log("Hello!");
+```
+
+This block...
+
+![](./images/assignment.png)
+
+in JS could be...
+
+```js
+let myVariable = 88;
+```
+
+This block...
+
+![](./images/assignment-alert.png)
+
+could be...
+
+```js
+let answer = alert("What's your name?");
+```
+
+Our task is to translate the following code blocks into JavaScript.
+
+### Task 1
+
+![](./images/weather.png)
+
+### Task 2
+
+![](./images/my-fav-number.png)
+
+### Task 3
+
+![](./images/whats-your-name.png)
