@@ -7,6 +7,7 @@ We will use...
 - variables
 - if statements
 - loops
+- functions
 
 ## Our Plan
 
@@ -70,9 +71,25 @@ This means we will need to keep track of the number of attempts.
 
 👉 Use the variable `attempts` in the condition of the while loop. We want the while loop to run as long as attempts are less than 3.
 
-👉 If the user enters the wrong password, we want to add 1 to the attempts variable. If they are correct we can use the `break` keyword to exit the loop.
+👉 If the user enters the wrong password, we want to add 1 to the attempts variable. If they are correct we want to exit the loop.
 
-## Step 4 - The End
+## Step 4 - Functions
+
+👉 Refactor the code you have written into a function called authenticateUser. Have that function return true if the user logged in successfully, and false if they got the password wrong more than three times. You can put most of the code you have written into the function, but don't reveal the secret yet. The function should be used like this...
+
+```js
+function authenticateUser() {
+  // prompt for password and handle login attempts here
+}
+// get answer here
+let isLoggedIn = authenticateUser();
+
+// you should reveal the secret after the function is called using the boolean isLoggedIn
+```
+
+Move
+
+## Step 5 - The End
 
 Well done, you've successfully implemented a password checking system. Hopefully your secret information wasn't too embarrassing and your password was strong enough to keep it secret!
 
