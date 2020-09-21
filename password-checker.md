@@ -93,6 +93,8 @@ Well done, you've successfully implemented a password checking system. Hopefully
 
 Next steps...
 
+- Split up the functionality into more functions
+  - each function should only do one thing
 - Let the user know how many attempts they have left.
 - Delete the code (or parts of) and practice remembering what you did and writing it out again, this will really help embed your new skills.
 - Let your imagination run wild and make something else using the same logic.
