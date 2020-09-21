@@ -87,8 +87,6 @@ let isLoggedIn = authenticateUser();
 // you should reveal the secret after the function is called using the boolean isLoggedIn
 ```
 
-Move
-
 ## Step 5 - The End
 
 Well done, you've successfully implemented a password checking system. Hopefully your secret information wasn't too embarrassing and your password was strong enough to keep it secret!
