@@ -1,8 +1,8 @@
 # JS 101 - Conditional Statements
 
-Conditional statements allow us to write programs that perform the different actions depending on the situation. The main way we write these is with `if`, `else` and `else if` statements.
+Conditional statements allow us to write programs that perform different actions with logic depending on the situation. The main way we write these is with `if`, `else` and `else if` statements.
 
-### The basic if...
+### The basic if:
 
 ```js
 if (condition) {
@@ -12,7 +12,7 @@ if (condition) {
 
 Inside the smooth brackets, the if statement expects a expression that resolves to `true` or `false`. This is called a boolean expression.
 
-Example boolean expressions...
+Examples of boolean expressions:
 
 - `1 > 3` (false)
 - `1 === 1` (true)
@@ -24,7 +24,7 @@ if (1 > 3) {
 }
 ```
 
-Well yes, one is always going to be greater than three. We will usually be checking something that can change like a variable.
+In this example, one is always going to be greater than three; that won't change. In our code, however, we will usually be checking something that can change like a variable.
 
 ```js
 let numberOfPies = getPieCount();
@@ -34,9 +34,9 @@ if (numberOfPies < 1) {
 }
 ```
 
-### If/else
+### If/else:
 
-The else statement will run if the the previous ifs or if elses have not run. There can **only** be one and it **must** be the last in the chain.
+The else statement below the if statement will run if the the previous ifs or if elses have not run (so if the conditions in the other ifs/if elses have evaluated to false). There can **only** be one else statement, and it **must** be the last in the chain.
 
 ```js
 let numberOfPies = getPieCount();
@@ -44,13 +44,13 @@ let numberOfPies = getPieCount();
 if (numberOfPies < 1) {
   console.log("Who ate all the pies???");
 } else {
-  console.log("We got pies! Who's hungry?");
+  console.log("We have pies! Who's hungry?");
 }
 ```
 
 ### Else If
 
-You can put as many else ifs in as you like, they **cannot** be first as the chain must always start with an if. You **must** supply a condition.
+You can put as many else ifs in as you like, but they **cannot** be first, as the chain must always start with an if. You **must** supply a condition for an else if statement.
 
 ```js
 let numberOfPies = getPieCount();
@@ -66,7 +66,7 @@ if (numberOfPies < 1) {
 
 ## Exercises
 
-We are going to use our new found javascript skills and of our existing knowledge of scratch to translate some blocks to real code.
+We are going to use our newfound JavaScript skills and our existing knowledge of Scratch to translate some blocks to real code.
 
 For example this block...
 
@@ -98,7 +98,7 @@ could be...
 let answer = alert("What's your name?");
 ```
 
-Our task is to translate the following code blocks into JavaScript.
+Your task now is to translate the following code blocks into JavaScript.
 
 ### Task 1
 
