@@ -12,7 +12,7 @@ Nim is a game where two players take turns picking up things from a pile. There 
 
 Your challenge is to convert this game to code. Think about what information you will need to store and what variables you will store them in.
 
-👉 Accept [this classroom invitation](https://classroom.github.com/g/rbMuZZNG) and clone the repository it contains, which already has a helpful function for getting number input.
+👉 Accept [this classroom invitation](https://classroom.github.com/g/rbMuZZNG), and clone the repository it contains, which already has a helpful function for getting number input.
 👉 Make a plan just like we did for the password checker.
 👉 Once your plan is complete, run it by a code coach.
 👉 Execute your plan!
