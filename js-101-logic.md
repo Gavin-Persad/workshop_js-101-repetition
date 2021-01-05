@@ -1,5 +1,7 @@
 # JS 101 - Conditional Statements
 
+Do these tasks in the JS file that you just linked to the HTML in the previous activity.
+
 Conditional statements allow us to write programs that perform different actions with logic depending on the situation. The main way we write these is with `if`, `else` and `else if` statements.
 
 ### The basic if:
