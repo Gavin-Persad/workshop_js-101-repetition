@@ -4,7 +4,7 @@
 
 ### Getting Set Up:
 
-- Make a new folder, and within it, add an `index.html` file that contains the following:
+- Make a new folder in this workshop folder, and within it, add an `index.html` file that contains the following:
 
 ```html
 <!DOCTYPE html>

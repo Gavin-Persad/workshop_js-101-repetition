@@ -100,7 +100,7 @@ could be...
 let answer = alert("What's your name?");
 ```
 
-Your task now is to translate the following code blocks into JavaScript.
+Your task now is to translate the following code blocks into JavaScript. You can use the main.js file you created in the previous task so you can open the index.html file it's linked to in your browser to see alerts and console.logs in the dev tools console.
 
 ### Task 1
 
